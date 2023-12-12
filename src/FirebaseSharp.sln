@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseSharp.Tests", "FirebaseSharp.Tests\FirebaseSharp.Tests.csproj", "{029A36F6-447F-4885-B84B-5D00E7CB0A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseSharp.Portable", "FirebaseSharp.Portable\FirebaseSharp.Portable.csproj", "{D8788F65-474D-4EC9-B475-9E7F7C5E7460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{A151D3F1-B7B8-4B5E-99AB-3D149B66EC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseSharp.Samples.Draw", "..\samples\draw\FirebaseSharp.Samples.Draw.csproj", "{4298BBF4-D436-4D52-994B-C75D0EC4DD44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECCE8FCA-D086-4543-8BA3-A47045050F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5BF4DD4D-5E43-440B-AE33-1AB0E7888294}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestPinAuth", "..\samples\nest\NestPinAuth\NestPinAuth.csproj", "{9E6AF67D-432D-4004-959E-252976504C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "..\samples\Weather\Weather.csproj", "{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriorityQueue", "PriorityQueue\PriorityQueue.csproj", "{37E8F625-C9C9-433C-B42D-9E6CD70798DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029A36F6-447F-4885-B84B-5D00E7CB0A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029A36F6-447F-4885-B84B-5D00E7CB0A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029A36F6-447F-4885-B84B-5D00E7CB0A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029A36F6-447F-4885-B84B-5D00E7CB0A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8788F65-474D-4EC9-B475-9E7F7C5E7460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4298BBF4-D436-4D52-994B-C75D0EC4DD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4298BBF4-D436-4D52-994B-C75D0EC4DD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4298BBF4-D436-4D52-994B-C75D0EC4DD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4298BBF4-D436-4D52-994B-C75D0EC4DD44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6AF67D-432D-4004-959E-252976504C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6AF67D-432D-4004-959E-252976504C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6AF67D-432D-4004-959E-252976504C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6AF67D-432D-4004-959E-252976504C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E8F625-C9C9-433C-B42D-9E6CD70798DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E8F625-C9C9-433C-B42D-9E6CD70798DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E8F625-C9C9-433C-B42D-9E6CD70798DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E8F625-C9C9-433C-B42D-9E6CD70798DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4298BBF4-D436-4D52-994B-C75D0EC4DD44} = {A151D3F1-B7B8-4B5E-99AB-3D149B66EC9F}
+		{9E6AF67D-432D-4004-959E-252976504C08} = {A151D3F1-B7B8-4B5E-99AB-3D149B66EC9F}
+		{E7ED8A9E-53B3-430C-ACC2-8E532D50EED3} = {A151D3F1-B7B8-4B5E-99AB-3D149B66EC9F}
+		{37E8F625-C9C9-433C-B42D-9E6CD70798DD} = {A151D3F1-B7B8-4B5E-99AB-3D149B66EC9F}
+	EndGlobalSection
+EndGlobal
